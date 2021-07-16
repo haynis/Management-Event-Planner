@@ -1,0 +1,47 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.altcard{
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.altaboutus{
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  border: none;
+}
+
+.alteraboutus{
+  padding: 5px;
+  height: auto;
+  width: 80%;
+}
+
+h4, h5, h6{
+  color: #107dac;
+}
+
+.altbtmfooter{
+  padding: 20px;
+  color: grey;
+  /*background-color: #005073;*/
+  text-align: center;
+  font-size: 10pt;
+}
+
+@media screen and (max-width: 1000px) {
+  .alteraboutus {
+      width: 100%;
+      float: none;
+  }
+
+  .altaboutus {
+    padding: 0;
+  }
+}
